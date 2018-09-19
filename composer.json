@@ -1,0 +1,20 @@
+{
+    "name": "scodeless/imgcompress",
+    "description": "compress img source",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Scodeless",
+            "email": "537464000@qq.com",
+            "homepage": "https://blog.scodeless.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/ImgCompress.php"
+        ],
+        "psr-4": {"ImgCompress\\": "src/"}
+    }
+}
